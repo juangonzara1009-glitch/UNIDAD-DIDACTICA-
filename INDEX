@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Unidad didáctica interactiva sobre la clasificación del reino animal para grado noveno.">
+  <title>Explora Animalia | Unidad didáctica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Explora Animalia, inicio">
+      <span class="brand-mark">A</span>
+      <span>EXPLORA<span class="brand-accent">ANIMALIA</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#ruta">Ruta de aprendizaje</a>
+      <a href="#contenidos">Contenidos</a>
+      <a href="#reto">Pon a prueba tus saberes</a>
+      <a class="nav-cta" href="#evaluacion">Evaluación</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-grid"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> CIENCIAS NATURALES · GRADO 9.º</p>
+        <h1>Un mundo de vida.<br><em>Mil formas</em> de clasificar.</h1>
+        <p class="hero-lead">Explora la diversidad del reino animal, descubre qué características comparten los organismos y comprende cómo la ciencia organiza la vida.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#ruta">Comenzar recorrido <span>↗</span></a>
+          <a class="text-link" href="#contenidos">Explorar contenidos <span>↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><strong>04</strong> módulos</span>
+          <span><strong>01</strong> reto interactivo</span>
+          <span><strong>09.º</strong> grado</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración decorativa de animales">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="animal-card animal-card-main"><span class="animal-emoji">🐆</span><small>BIODIVERSIDAD</small></div>
+        <div class="animal-card animal-card-fish"><span>🐠</span></div>
+        <div class="animal-card animal-card-bird"><span>🦜</span></div>
+        <div class="animal-card animal-card-bug"><span>🦋</span></div>
+        <div class="hero-sticker">ANIMALIA<br><b>∞</b></div>
+        <p class="art-caption">La diversidad también cuenta historias evolutivas.</p>
+      </div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div class="section-kicker">01 / PUNTO DE PARTIDA</div>
+      <div class="intro-grid">
+        <h2>¿Cómo podemos<br>ordenar tanta <em>diversidad?</em></h2>
+        <div>
+          <p>En la naturaleza encontramos organismos con formas, tamaños, estructuras y modos de vida muy diferentes. La clasificación biológica permite organizar esa diversidad, reconocer semejanzas y diferencias, y estudiar las relaciones de parentesco entre los seres vivos.</p>
+          <p class="callout"><span>PIENSA</span> Si una ballena vive en el agua y un murciélago vuela, ¿por qué ambos son mamíferos?</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="learning-path" id="ruta">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><div class="section-kicker">02 / TU RECORRIDO</div><h2>Una ruta para <em>descubrir</em></h2></div>
+          <p>Avanza por los módulos, toma notas y relaciona cada concepto con ejemplos del entorno.</p>
+        </div>
+        <div class="path-grid">
+          <a class="path-card path-dark" href="#modulo1"><span class="path-number">01</span><span class="path-icon">🧬</span><h3>Clasificar la vida</h3><p>Taxonomía, sistemática y categorías biológicas.</p><span class="path-arrow">↗</span></a>
+          <a class="path-card path-green" href="#modulo2"><span class="path-number">02</span><span class="path-icon">🦴</span><h3>Vertebrados</h3><p>Un esqueleto interno y cinco grandes grupos.</p><span class="path-arrow">↗</span></a>
+          <a class="path-card path-orange" href="#modulo3"><span class="path-number">03</span><span class="path-icon">🪲</span><h3>Invertebrados</h3><p>Una enorme variedad de planes corporales.</p><span class="path-arrow">↗</span></a>
+          <a class="path-card path-blue" href="#modulo4"><span class="path-number">04</span><span class="path-icon">🌳</span><h3>Relaciones evolutivas</h3><p>Parentesco, ancestros comunes y biodiversidad.</p><span class="path-arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="contenidos">
+      <div class="section-kicker">03 / CONSTRUYE CONOCIMIENTO</div>
+      <h2>Los conceptos que necesitas <em>conectar</em></h2>
+
+      <article class="lesson" id="modulo1">
+        <div class="lesson-index">MÓDULO 01 <span>FUNDAMENTOS</span></div>
+        <div class="lesson-body">
+          <h3>Clasificar es encontrar patrones</h3>
+          <p>La <strong>taxonomía</strong> describe, identifica y nombra organismos; la <strong>sistemática</strong> estudia su diversidad y sus relaciones evolutivas. La clasificación moderna utiliza diferentes evidencias, como características anatómicas, desarrollo embrionario y datos moleculares.</p>
+          <div class="concept-grid">
+            <div class="concept"><b>Dominio</b><span>La categoría más amplia de esta jerarquía.</span></div>
+            <div class="concept"><b>Reino</b><span>Reúne grandes grupos de organismos.</span></div>
+            <div class="concept"><b>Filo</b><span>Agrupa organismos por un plan corporal general.</span></div>
+            <div class="concept"><b>Clase</b><span>Organiza grupos dentro de un filo.</span></div>
+            <div class="concept"><b>Orden y familia</b><span>Reducen progresivamente el grupo.</span></div>
+            <div class="concept"><b>Género y especie</b><span>Identifican grupos cada vez más específicos.</span></div>
+          </div>
+          <div class="note-box"><strong>Recuerda:</strong> en la nomenclatura binomial, el nombre científico tiene dos palabras: género (inicial mayúscula) y epíteto específico (minúscula). Ejemplo: <i>Panthera onca</i>.</div>
+        </div>
+      </article>
+
+      <article class="lesson" id="modulo2">
+        <div class="lesson-index">MÓDULO 02 <span>VERTEBRADOS</span></div>
+        <div class="lesson-body">
+          <h3>Animales con columna vertebral</h3>
+          <p>Los vertebrados son cordados que presentan columna vertebral y un cráneo. Para estudiarlos en el nivel escolar suelen reconocerse cinco grupos principales:</p>
+          <div class="animal-groups">
+            <div class="group-card"><span>🐟</span><b>Peces</b><p>La mayoría acuáticos; respiran por branquias y poseen aletas.</p></div>
+            <div class="group-card"><span>🐸</span><b>Anfibios</b><p>Piel generalmente húmeda; muchas especies tienen metamorfosis.</p></div>
+            <div class="group-card"><span>🐍</span><b>Reptiles</b><p>Vertebrados amniotas; piel con escamas o placas queratinizadas.</p></div>
+            <div class="group-card"><span>🦅</span><b>Aves</b><p>Plumas, pico y extremidades anteriores transformadas en alas.</p></div>
+            <div class="group-card"><span>🦊</span><b>Mamíferos</b><p>Poseen pelo en alguna etapa y glándulas mamarias.</p></div>
+          </div>
+          <div class="note-box"><strong>Para analizar:</strong> una ballena tiene aletas y vive en el agua, pero respira aire con pulmones y alimenta a sus crías con leche. Por eso es un mamífero, no un pez.</div>
+        </div>
+      </article>
+
+      <article class="lesson" id="modulo3">
+        <div class="lesson-index">MÓDULO 03 <span>INVERTEBRADOS</span></div>
+        <div class="lesson-body">
+          <h3>Una diversidad sin columna vertebral</h3>
+          <p>“Invertebrados” es un término práctico para reunir animales que no tienen columna vertebral; no corresponde a un único grupo evolutivo formal. Incluye numerosos filos con estructuras y formas de vida distintas.</p>
+          <div class="invertebrate-list">
+            <div><span>🧽</span><p><b>Poríferos</b><small>Esponjas; cuerpo con poros y vida acuática.</small></p></div>
+            <div><span>🪼</span><p><b>Cnidarios</b><small>Medusas y corales; presentan células urticantes.</small></p></div>
+            <div><span>🪱</span><p><b>Gusanos</b><small>Incluyen platelmintos, nematodos y anélidos.</small></p></div>
+            <div><span>🐌</span><p><b>Moluscos</b><small>Cuerpo blando; algunos tienen concha.</small></p></div>
+            <div><span>🦀</span><p><b>Artrópodos</b><small>Exoesqueleto y apéndices articulados.</small></p></div>
+            <div><span>⭐</span><p><b>Equinodermos</b><small>Estrellas y erizos de mar; exclusivamente marinos.</small></p></div>
+          </div>
+          <div class="note-box"><strong>Dato clave:</strong> los artrópodos constituyen el filo animal con mayor número de especies descritas. Insectos, arácnidos, crustáceos y miriápodos son algunos de sus grupos.</div>
+        </div>
+      </article>
+
+      <article class="lesson" id="modulo4">
+        <div class="lesson-index">MÓDULO 04 <span>EVOLUCIÓN</span></div>
+        <div class="lesson-body">
+          <h3>Clasificar también es reconstruir parentescos</h3>
+          <p>La clasificación filogenética busca representar la historia evolutiva. Un <strong>árbol filogenético</strong> o cladograma muestra hipótesis de parentesco: los puntos de ramificación representan ancestros comunes hipotéticos.</p>
+          <div class="cladogram">
+            <div class="clado-title">ESQUEMA SIMPLIFICADO DE PARENTESCO</div>
+            <div class="clado-line"><span class="root-dot"></span><span class="branch branch-a"></span><span class="branch branch-b"></span><span class="branch branch-c"></span><span class="branch branch-d"></span></div>
+            <div class="clado-labels"><span>Pez</span><span>Anfibio</span><span>Reptil</span><span>Ave</span><span>Mamífero</span></div>
+            <p>Esquema conceptual: no representa todas las relaciones ni todos los grupos. Las aves, por ejemplo, pertenecen al linaje de los dinosaurios terópodos.</p>
+          </div>
+          <p>Para interpretar un cladograma, identifica los nodos (ancestros comunes) y compara qué organismos comparten el ancestro común más reciente. No interpretes las ramas como una escala de “más evolucionado” o “menos evolucionado”.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="challenge-section" id="reto">
+      <div class="section-wrap challenge-grid">
+        <div>
+          <div class="section-kicker light-kicker">04 / APRENDE HACIENDO</div>
+          <h2>¿Qué tan buen/a<br><em>clasificador/a</em> eres?</h2>
+          <p>Lee cada caso y aplica criterios científicos. No te guíes únicamente por el lugar donde vive un animal o por su apariencia superficial.</p>
+          <div class="challenge-tip">PISTA: observa estructuras, reproducción, respiración y características compartidas.</div>
+        </div>
+        <div class="challenge-box">
+          <div class="challenge-top"><span>RETO DE CLASIFICACIÓN</span><span id="challengeCount">CASO 01 / 03</span></div>
+          <div class="challenge-animal" id="challengeEmoji">🐬</div>
+          <h3 id="challengeQuestion">El delfín vive en el agua y tiene aletas. ¿A qué grupo pertenece?</h3>
+          <div class="answer-options" id="challengeOptions">
+            <button class="answer-option" data-answer="Pez">Pez</button>
+            <button class="answer-option" data-answer="Mamífero">Mamífero</button>
+            <button class="answer-option" data-answer="Reptil">Reptil</button>
+          </div>
+          <p class="feedback" id="challengeFeedback" aria-live="polite">Selecciona una respuesta para comprobar tu razonamiento.</p>
+          <button class="button button-dark" id="nextChallenge" disabled>Siguiente caso <span>→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="assessment section-wrap" id="evaluacion">
+      <div class="section-heading">
+        <div><div class="section-kicker">05 / EVIDENCIA TU APRENDIZAJE</div><h2>Evaluación de <em>cierre</em></h2></div>
+        <p>Responde las preguntas y revisa tu resultado. Lee la retroalimentación para identificar qué conceptos puedes reforzar.</p>
+      </div>
+      <form id="quizForm" class="quiz-form">
+        <div class="quiz-question"><p><span>01</span> ¿Cuál es el propósito principal de la clasificación biológica?</p>
+          <label><input type="radio" name="q1" value="a"> Ordenar organismos según su tamaño.</label>
+          <label><input type="radio" name="q1" value="b"> Organizar la diversidad y estudiar semejanzas y relaciones entre organismos.</label>
+          <label><input type="radio" name="q1" value="c"> Separar animales domésticos de silvestres.</label>
+        </div>
+        <div class="quiz-question"><p><span>02</span> ¿Qué característica permite reconocer a los artrópodos?</p>
+          <label><input type="radio" name="q2" value="a"> Plumas y pico.</label>
+          <label><input type="radio" name="q2" value="b"> Columna vertebral.</label>
+          <label><input type="radio" name="q2" value="c"> Exoesqueleto y apéndices articulados.</label>
+        </div>
+        <div class="quiz-question"><p><span>03</span> ¿Por qué el murciélago se clasifica como mamífero?</p>
+          <label><input type="radio" name="q3" value="a"> Porque tiene alas y vuela.</label>
+          <label><input type="radio" name="q3" value="b"> Porque presenta características propias de los mamíferos, como pelo y glándulas mamarias.</label>
+          <label><input type="radio" name="q3" value="c"> Porque se alimenta de insectos.</label>
+        </div>
+        <div class="quiz-question"><p><span>04</span> En un cladograma, ¿qué indica un nodo?</p>
+          <label><input type="radio" name="q4" value="a"> Un ancestro común hipotético.</label>
+          <label><input type="radio" name="q4" value="b"> El organismo más evolucionado.</label>
+          <label><input type="radio" name="q4" value="c"> El lugar donde vive una especie.</label>
+        </div>
+        <div class="quiz-question"><p><span>05</span> ¿Cuál afirmación sobre los invertebrados es correcta?</p>
+          <label><input type="radio" name="q5" value="a"> Todos pertenecen a un mismo filo.</label>
+          <label><input type="radio" name="q5" value="b"> Son animales que carecen de columna vertebral y pertenecen a diversos grupos.</label>
+          <label><input type="radio" name="q5" value="c"> Todos viven en ambientes terrestres.</label>
+        </div>
+        <button class="button button-primary" type="submit">Calificar evaluación <span>↗</span></button>
+        <button class="reset-link" type="reset" id="resetQuiz">Volver a intentar</button>
+      </form>
+      <div class="quiz-result" id="quizResult" aria-live="polite" hidden></div>
+    </section>
+
+    <section class="reflection">
+      <div class="section-wrap reflection-inner">
+        <div class="section-kicker light-kicker">06 / CONECTA CON TU ENTORNO</div>
+        <h2>La biodiversidad no está<br>lejos: <em>nos rodea.</em></h2>
+        <p>Colombia es un país megadiverso. Observar los animales de los ecosistemas cercanos permite reconocer sus funciones ecológicas y comprender por qué conservar sus hábitats es fundamental.</p>
+        <div class="reflection-question"><b>PARA REFLEXIONAR</b><span>¿Qué animales reconoces en tu comunidad y qué papel cumplen en el ecosistema? ¿Qué acciones pueden ayudar a protegerlos?</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">A</span><span>EXPLORA<span class="brand-accent">ANIMALIA</span></span></a>
+    <p>Unidad didáctica de Ciencias Naturales · Grado noveno</p>
+    <a href="#inicio">Volver al inicio ↑</a>
+    <small>Recurso educativo de elaboración didáctica. Verifica y amplía la información con las fuentes bibliográficas de tu curso.</small>
+  </footer>
+</body>
+</html>
